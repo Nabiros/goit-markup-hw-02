@@ -1,0 +1,127 @@
+:root {
+    --primary-text-color: #000000;
+    --nav-color: #212121;
+    --color-blue: #2196F3;
+    --color-white: #ffffff;
+    --color-gray: #757575;
+    --footer-address-color-op60: rgba(255, 255, 255, 0.6);
+}
+a {
+    text-decoration: none;
+}
+
+.web-logo {
+  color: #2196f3;
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+}
+/* Primary page */
+.nav-li{
+    color: var(--nav-color)
+}
+
+.nav-li:hover, 
+.nav-li:focus{
+color: var(--color-blue);
+}
+
+.tel:hover, 
+.tel:focus, 
+.email:hover, 
+.email:focus {
+color: var(--color-blue);
+} 
+
+.tel, .email{
+    color: var(--email-tel-color)
+}
+
+footer {
+    background-color: #2F303A;;
+}
+
+.addresses {
+    color: var(--color-white);
+}
+
+.footer .studio-logo-footer{
+color: var(--color-white);
+}
+
+.studio-logo {
+  color: #000000;
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.main-section {
+    background-color: #2F303A;
+}
+
+.main-sections-text {
+    color: #ffffff;
+}
+
+.main-button {
+    color: var(--color-white)
+}
+
+.logo .nav {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  color: #212121;
+}
+
+.qualit {
+color: var(--nav-color);
+}
+
+.qualities {
+color: var(--color-gray);
+}
+
+.are-we-doing {
+color: var(--nav-color);
+}
+
+.name-person {
+    color: var(--nav-color);
+}
+
+.person-poition {
+    color: var(--color-gray);
+}
+
+.studio-logo-footer {
+    color: var(--color-white)
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.tel-footer, .email-footer {
+    color: var(--footer-address-color-op60);
+}
+
+/* Portfolio */
+.appoint {
+font-weight: 700;
+color: var(--nav-color);
+}
+
+.appoint-resurses {
+color: var(--color-gray);
+}
+.filtress {
+    color: var(--nav-color);
+}
+.filtress:focus,
+.filtress:hover {
+    color: var(--color-white);
+    background-color: var(--color-blue);
+}
