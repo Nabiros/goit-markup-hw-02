@@ -57,13 +57,6 @@ color: var(--color-white);
   font-size: 26px;
   font-weight: 700;
 }
-.main-button {
-    color: var(--color-white);
-    background-color: var(--color-blue);
-    }
-.main-button:focus,
-.main-button:hover {
-    color: var(--nav-color);
 
 .main-section {
     background-color: #2F303A;
