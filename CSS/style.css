@@ -9,6 +9,10 @@
 a {
     text-decoration: none;
 }
+body {
+    font-family: roboto, sans-serif;
+}
+
 
 .web-logo {
   color: #2196f3;
@@ -117,11 +121,11 @@ color: var(--nav-color);
 .appoint-resurses {
 color: var(--color-gray);
 }
-.filtress {
+.filtress-button {
     color: var(--nav-color);
 }
-.filtress:focus,
-.filtress:hover {
+.filtress-button:focus,
+.filtress-button:hover {
     color: var(--color-white);
     background-color: var(--color-blue);
 }
