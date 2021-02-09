@@ -1,10 +1,10 @@
 :root {
-    --primary-text-color: #000000;
-    --nav-color: #212121;
-    --color-blue: #2196F3;
-    --color-white: #ffffff;
-    --color-gray: #757575;
-    --footer-address-color-op60: rgba(255, 255, 255, 0.6);
+  --primary-text-color: #000000;
+  --nav-color: #212121;
+  --color-blue: #2196f3;
+  --color-white: #ffffff;
+  --color-gray: #757575;
+  --footer-address-color-op60: rgba(255, 255, 255, 0.6);
 }
 
 .web-logo {
@@ -14,188 +14,171 @@
   font-size: 26px;
   font-weight: 700;
 }
+
 /* Primary page */
 
-.nav-li{
-    color: var(--nav-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
+.nav-li {
+  color: var(--nav-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
-.nav-li:hover, 
-.nav-li:focus{
-    color: var(--color-blue);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
+.nav-li:hover,
+.nav-li:focus {
+  color: var(--color-blue);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
-.communication{
-    color: var(--color-gray);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
+.communication {
+  color: var(--color-gray);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
 }
 
 .communication:hover,
 .communication:focus {
-    color: var(--color-blue);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-} 
-
-
+  color: var(--color-blue);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
 
 footer {
-    background-color: #2F303A;;
+  background-color: #2f303a;
 }
 
 .addresses {
-    color: var(--color-white);
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
+  color: var(--color-white);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
 
-.footer .studio-logo-footer{
-    color: var(--color-white);
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-
+.footer .studio-logo-footer {
+  color: var(--color-white);
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
 }
 
 .studio-logo {
-    color: #000000;
-    text-decoration: none;
-    font-family: Raleway;
-    font-size: 26px;
-    font-weight: 700;
+  color: #000000;
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
 }
 
 .main-section {
-    background-color: #2F303A;
-    }
+  background-color: #2f303a;
+}
 
 .main-sections-text {
-    color: #ffffff;
-    text-transform: uppercase;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 60px;
-/*     text-align: center; */
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
 }
 
 .main-button {
-    color: var(--color-white);
-    background-color: var(--color-blue);
-    font-weight: 900;
-    font-size: 16px;
-    line-height: 30px;
-}
-
-.logo .nav {
-    font-family: Roboto;
-    font-size: 14px;
-    line-height: 16px;
-    color: #212121;
-}
-.nav-li {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
+  color: var(--color-white);
+  background-color: var(--color-blue);
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .qualit {
-    color: var(--nav-color);
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+  color: var(--nav-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .qualities {
-    color: var(--color-gray);
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
+  color: var(--color-gray);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
 
 .are-we-doing {
-    color: var(--nav-color);
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 42px;
-    letter-spacing: 0.03em;
+  color: var(--nav-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
 }
 
 .name-person {
-    color: var(--nav-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 0.03em;
+  color: var(--nav-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
 }
 
 .person-poition {
-    color: var(--color-gray);
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 0.03em;
+  color: var(--color-gray);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
 }
 
 .studio-logo-footer {
-    color: var(--color-white)
-    font-family: Raleway;
-    font-size: 26px;
-    font-weight: 700;
+  color: var(--color-white);
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
 }
 
 .communication-footer {
-    color: var(--footer-address-color-op60);
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-
+  color: var(--footer-address-color-op60);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
 
 /* Portfolio */
 .appoint {
-    font-weight: 700;
-    color: var(--nav-color);
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 36px;
-    letter-spacing: 0.06em;
+  font-weight: 700;
+  color: var(--nav-color);
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
 }
 
 .appoint-resurses {
-    color: var(--color-gray);
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.03em;
+  color: var(--color-gray);
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
 }
 
 .filtress-button {
-    color: var(--nav-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.03em;
+  color: var(--nav-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
 }
 
 .filtress-button:focus,
 .filtress-button:hover {
-    color: var(--color-white);
-    background-color: var(--color-blue);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.03em;
+  color: var(--color-white);
+  background-color: var(--color-blue);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
 }

@@ -25,10 +25,11 @@ body {
   text-decoration: none;
   font-family: roboto, sans-serif;
 }
-a {
-    text-decoration: none;
-}
 
+a {
+  text-decoration: none;
+  background-color: transparent;
+}
 
 /**
  * Render the `main` element consistently in IE.
@@ -68,9 +69,8 @@ hr {
  */
 
 /* pre {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
-} */
+  font-family: monospace, monospace; /* 1
+  font-size: 1em; 2 */
 
 /* Text-level semantics
    ========================================================================== */
@@ -78,10 +78,6 @@ hr {
 /**
  * Remove the gray background on active links in IE 10.
  */
-
-a {
-  background-color: transparent;
-}
 
 /**
  * 1. Remove the bottom border in Chrome 57-
@@ -91,7 +87,6 @@ a {
 abbr[title] {
   border-bottom: none; /* 1 */
   text-decoration: underline; /* 2 */
-  text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -111,7 +106,7 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace; /* 1 */
+  font-family: monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
 
@@ -181,7 +176,6 @@ textarea {
 
 button,
 input {
-  /* 1 */
   overflow: visible;
 }
 
@@ -192,7 +186,6 @@ input {
 
 button,
 select {
-  /* 1 */
   text-transform: none;
 }
 
@@ -355,9 +348,11 @@ template {
 [hidden] {
   display: none;
 }
+
 address {
   font-style: normal;
 }
+
 ul {
   list-style: none;
 }
